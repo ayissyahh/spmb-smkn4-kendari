@@ -159,6 +159,61 @@ body {
     font-size: 0.85em;
 }
 
+/* ===== Tabel & elemen markdown dari jawaban AI ===== */
+.message-content table {
+    display: block;          /* agar tabel lebar bisa digeser, tidak keluar bubble */
+    max-width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+    margin: 8px 0;
+    font-size: 0.85em;
+}
+
+.message-content th,
+.message-content td {
+    border: 1px solid #e9d5ff;
+    padding: 6px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.message-content th {
+    background: #f3e8ff;
+    color: #4c1d95;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.message-content tbody tr:nth-child(even) td {
+    background: #fdfaff;
+}
+
+.message-content h1,
+.message-content h2,
+.message-content h3,
+.message-content h4 {
+    font-size: 1em;
+    font-weight: 700;
+    color: #4c1d95;
+    margin: 10px 0 4px;
+}
+
+.message-content a {
+    color: #6a0dad;
+    word-break: break-word;
+}
+
+.message-content hr {
+    border: none;
+    border-top: 1px solid #e9d5ff;
+    margin: 10px 0;
+}
+
+/* Bubble yang berisi tabel boleh memakai lebar penuh */
+.ai-message:has(table) {
+    max-width: 100%;
+}
+
 .timestamp {
     font-size: 0.68rem;
     opacity: 0.55;
@@ -279,4 +334,125 @@ body {
     color: #999;
     padding: 4px 14px 10px;
     flex-shrink: 0;
+}
+
+/* =========================================================
+   RESPONSIF — TABLET & LAPTOP
+   ========================================================= */
+
+/* Tablet / layar sedang (≥ 768px) */
+@media (min-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .chat-container {
+        max-width: 760px;
+        height: calc(100vh - 40px);
+        max-height: none;
+        border-radius: 20px;
+    }
+
+    .message {
+        max-width: 78%;
+        font-size: 0.95rem;
+    }
+}
+
+/* Laptop / desktop (≥ 1024px) */
+@media (min-width: 1024px) {
+    body {
+        padding: 24px;
+    }
+
+    .chat-container {
+        max-width: 980px;
+        height: calc(100vh - 48px);
+    }
+
+    .chat-header {
+        padding: 16px 28px;
+    }
+
+    .avatar-logo {
+        width: 56px;
+        height: 56px;
+    }
+
+    .header-info {
+        gap: 14px;
+    }
+
+    .chat-header h2 {
+        font-size: 1.25rem;
+    }
+
+    .chat-header p {
+        font-size: 0.85rem;
+    }
+
+    #clear-btn {
+        font-size: 1.2rem;
+        padding: 8px 10px;
+    }
+
+    .chat-box {
+        padding: 24px 32px;
+        gap: 16px;
+    }
+
+    .chat-box::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .message {
+        max-width: 70%;
+        padding: 12px 18px;
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .message-content table {
+        font-size: 0.9em;
+    }
+
+    .quick-questions {
+        padding: 10px 32px;
+        gap: 8px;
+    }
+
+    .quick-btn {
+        font-size: 0.85rem;
+        padding: 7px 16px;
+    }
+
+    .chat-input-area {
+        padding: 14px 32px 8px;
+        gap: 12px;
+    }
+
+    #user-input {
+        font-size: 1rem;
+        padding: 12px 18px;
+        max-height: 140px;
+    }
+
+    #send-btn {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+    }
+
+    .disclaimer {
+        font-size: 0.75rem;
+        padding: 4px 32px 14px;
+    }
+}
+
+/* Layar sangat lebar (≥ 1600px) */
+@media (min-width: 1600px) {
+    .chat-container {
+        max-width: 1100px;
+        max-height: 1000px;
+    }
 }
