@@ -477,6 +477,10 @@ function rateLimiter(req, res, next) {
     next();
 }
 
+const MAX_RIWAYAT          = 6;     // hanya 6 pesan terakhir yang dikirim ke AI
+const MAX_KARAKTER_USER    = 2000;  // batas pesan yang diketik pengguna
+const MAX_KARAKTER_ASISTEN = 1500;  // jawaban lama di riwayat dipotong agar hemat token
+
 function validateInput(messages) {
     if (!Array.isArray(messages)) return 'Format messages tidak valid.';
     if (messages.length === 0)    return 'Pesan tidak boleh kosong.';
@@ -485,9 +489,23 @@ function validateInput(messages) {
     for (const msg of messages) {
         if (!['user', 'assistant'].includes(msg.role)) return 'Role tidak valid.';
         if (typeof msg.content !== 'string')            return 'Konten harus berupa teks.';
-        if (msg.content.length > 2000)                  return 'Pesan terlalu panjang (maks. 2000 karakter).';
+        // Batas panjang hanya untuk pesan pengguna; jawaban AI boleh panjang
+        if (msg.role === 'user' && msg.content.length > MAX_KARAKTER_USER) {
+            return 'Pesan terlalu panjang (maks. 2000 karakter).';
+        }
     }
     return null;
+}
+
+function rapikanRiwayat(messages) {
+    let riwayat = messages.slice(-MAX_RIWAYAT);
+    // Riwayat harus diawali pesan pengguna
+    while (riwayat.length && riwayat[0].role !== 'user') riwayat.shift();
+    return riwayat.map(m =>
+        m.role === 'assistant' && m.content.length > MAX_KARAKTER_ASISTEN
+            ? { role: m.role, content: m.content.slice(0, MAX_KARAKTER_ASISTEN) + '\n...(dipotong)' }
+            : { role: m.role, content: m.content }
+    );
 }
 
 async function callGroq(messages) {
@@ -580,7 +598,7 @@ app.post('/api/chat', rateLimiter, async (req, res) => {
     }
 
     try {
-        const { reply, modelDipakai } = await callGroq(messages);
+        const { reply, modelDipakai } = await callGroq(rapikanRiwayat(messages));
 
         if (modelDipakai !== MODELS[0]) {
             console.warn(`Respons dilayani oleh model cadangan: ${modelDipakai}`);
