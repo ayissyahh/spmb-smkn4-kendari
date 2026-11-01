@@ -204,7 +204,8 @@ ADA di SMK, tetapi keduanya berada DI DALAM Jalur Prioritas.
    a. AFIRMASI
       - Untuk calon murid dari keluarga ekonomi tidak mampu dan/atau penyandang disabilitas
       - Kuota PALING SEDIKIT 15% dari daya tampung sekolah (wajib disediakan)
-      - Dokumen: lihat bagian DOKUMEN JALUR AFIRMASI
+      - Dokumen: lihat bagian DOKUMEN JALUR AFIRMASI (BDT/DTKS/DTSEN, KIP/PIP, PKH, BPNT,
+        KIS, atau SKTM)
    b. DOMISILI TERDEKAT
       - Untuk calon murid yang tempat tinggalnya terdekat dengan sekolah
       - Kuota PALING BANYAK 10% dari daya tampung sekolah
@@ -217,12 +218,16 @@ ADA di SMK, tetapi keduanya berada DI DALAM Jalur Prioritas.
    - Ditambah hasil tes bakat & minat sesuai kompetensi keahlian yang dipilih
 
 Gambaran pembagian daya tampung:
-- Jalur Prioritas: Afirmasi min. 15% + Domisili terdekat maks. 10%
-- Jalur Reguler: sisanya (sekitar 75% atau lebih)
-- Contoh ilustrasi (hanya hitungan, bukan data resmi): jika daya tampung 36 kursi →
-  Afirmasi paling sedikit 15% x 36 = 5,4 (artinya minimal 6 kursi),
-  Domisili terdekat paling banyak 10% x 36 = 3,6 (artinya maksimal 3 kursi),
-  sisanya untuk Jalur Reguler. Angka pasti per jurusan ditetapkan sekolah.
+- PENTING: persentase kuota (15% dan 10%) dihitung dari DAYA TAMPUNG SEKOLAH secara
+  keseluruhan (total semua jurusan), BUKAN per jurusan. Jangan pernah menulis
+  "dari daya tampung jurusan" atau "kuota per jurusan".
+- Jalur Prioritas: Afirmasi min. 15% + Domisili terdekat maks. 10% dari daya tampung sekolah
+- Jalur Reguler: sisanya (sekitar 75% atau lebih dari daya tampung sekolah)
+- Contoh ilustrasi (hanya hitungan, bukan data resmi): jika daya tampung sekolah 360 kursi →
+  Afirmasi paling sedikit 15% x 360 = 54 kursi,
+  Domisili terdekat paling banyak 10% x 360 = 36 kursi,
+  sisanya (paling sedikit 270 kursi) untuk Jalur Reguler.
+  Jumlah daya tampung resmi ditetapkan Dinas Pendidikan dan Kebudayaan Provinsi Sultra.
 
 TENTANG PRESTASI:
 - Di SMK, prestasi BUKAN jalur tersendiri. Prestasi adalah KOMPONEN NILAI (NK) yang
@@ -263,9 +268,9 @@ Komponen penilaian:
 
 Kuota:
 - Jalur Prioritas – Afirmasi (keluarga ekonomi tidak mampu dan/atau penyandang disabilitas):
-  MINIMAL 15% dari daya tampung
-- Jalur Prioritas – Domisili Terdekat: MAKSIMAL 10% dari daya tampung
-- Jalur Reguler: sisa daya tampung
+  MINIMAL 15% dari daya tampung sekolah
+- Jalur Prioritas – Domisili Terdekat: MAKSIMAL 10% dari daya tampung sekolah
+- Jalur Reguler: sisa daya tampung sekolah
 
 Contoh perhitungan (ilustrasi):
 - Rata-rata 4 mapel per semester: 80, 82, 84, 83, 86 → NR = 415 / 5 = 83
@@ -344,8 +349,9 @@ KETENTUAN SAH PIAGAM/SERTIFIKAT KEJUARAAN:
 Keluarga ekonomi tidak mampu:
 - Terdaftar dalam Basis Data Terpadu (BDT/DTKS/DTSEN), dan/atau
 - Bukti keikutsertaan program penanganan kemiskinan Pemerintah Pusat/Daerah:
-  Kartu PIP/KIP terdata di Dapodik, Kartu PKH terdata di DTKS, atau BPNT
-- KIS dan SKTM TIDAK BERLAKU
+  Kartu PIP/KIP terdata di Dapodik, Kartu PKH terdata di DTKS, BPNT, atau
+  KIS (Kartu Indonesia Sehat)
+- SKTM (Surat Keterangan Tidak Mampu) dari kelurahan/desa juga BERLAKU
 - Surat pernyataan orang tua bermaterai
 Penyandang disabilitas:
 - Surat keterangan medis tentang ketunaan / surat keterangan sebagai penyandang disabilitas
