@@ -35,7 +35,27 @@ const TOPIK_DIIZINKAN = [
     'pramuka','kepramukaan','osis','organisasi','ketua',
     'kapan','dimana','bagaimana','apa','berapa','siapa',
     'halo','hai','hello','selamat','pagi','siang','sore','malam',
-    'terima kasih','makasih','thanks','oke','ok','baik','map','map merah','map biru','map kuning','warna map','map pendaftaran'
+    'terima kasih','makasih','thanks','oke','ok','baik','map','map merah','map biru','map kuning','warna map','map pendaftaran',
+    // Juknis SPMB Sultra 2026 — seleksi & pendaftaran SMK
+    'juknis','petunjuk teknis','spmb 2026','2026/2027',
+    'nilai rapor','nilai raport','rata-rata rapor','lima semester','5 semester',
+    'nilai tka','tes kemampuan akademik','nilai kejuaraan',
+    'rumus','hitung nilai','perhitungan nilai','surat keterangan peringkat','peringkat',
+    'bahasa indonesia','matematika','bahasa inggris','ipa',
+    'tes bakat','bakat','minat','tes bakat dan minat','seleksi khusus',
+    'dunia usaha','dunia industri','dudi','asosiasi profesi',
+    'kompetensi keahlian','pilihan jurusan','pilihan kedua','dua pilihan','2 pilihan',
+    'surat keterangan dokter','surat dokter','keterangan sehat','tes buta warna',
+    'legalisir','dilegalisir','skl','surat keterangan lulus','akta kelahiran',
+    'batas usia','usia maksimal','21 tahun',
+    'bdt','basis data terpadu','dtsen','kip','bpnt','kartu indonesia pintar',
+    'keluarga tidak mampu','15 persen','10 persen',
+    'domisili terdekat','jarak rumah','jarak sekolah',
+    'pondok pesantren','pesantren','emis','panti asuhan',
+    'surat pernyataan','komitmen orang tua',
+    'verifikasi berkas','bukti pendaftaran','cetak bukti','unggah berkas','upload berkas',
+    'mpls','masa pengenalan','pengisian kursi kosong','cadangan','murid pengganti',
+    'pengaduan','sanksi','data palsu','pungutan','ketua osis','mpk','kepanduan'
 ];
 
 const TOPIK_DIBLOKIR = [
@@ -112,7 +132,7 @@ window.cekTopikPesan = cekTopikPesan;
 
 const PESAN_TOLAK_DIBLOKIR = `⛔ Maaf, pertanyaan tersebut tidak dapat saya layani.\n\nSaya hanya bisa membantu informasi seputar **SPMB SMKN 4 Kendari 2026/2027**.\n\nSilakan tanyakan hal-hal terkait pendaftaran, syarat, jadwal, atau jurusan yang tersedia. 😊`;
 
-const PESAN_TOLAK_DILUAR = `Maaf, pertanyaan Anda di luar topik yang bisa saya bantu. 🙏\n\nSaya adalah asisten khusus **SPMB SMKN 4 Kendari**. Saya siap menjawab pertanyaan seputar:\n- 📋 Syarat & dokumen pendaftaran\n- 📅 Jadwal SPMB\n- 🏫 Jurusan yang tersedia\n- 🎯 Sistem seleksi\n\nAda yang ingin ditanyakan tentang pendaftaran?`;
+const PESAN_TOLAK_DILUAR = `Maaf, pertanyaan Anda di luar topik yang bisa saya bantu. 🙏\n\nSaya adalah asisten khusus **SPMB SMKN 4 Kendari**. Saya siap menjawab pertanyaan seputar:\n- 📋 Syarat & dokumen pendaftaran\n- 📅 Jadwal SPMB (pendaftaran 22 Juni – 1 Juli 2026)\n- 🏫 Program keahlian (boleh pilih 2 dalam 1 sekolah)\n- 🎯 Seleksi: nilai rapor + TKA, prestasi, tes bakat & minat\n\nAda yang ingin ditanyakan tentang pendaftaran?`;
 
 sendBtn.addEventListener('click', handleSend);
 
@@ -223,9 +243,9 @@ function clearChat() {
                 <ul>
                     <li>📋 Syarat & Dokumen Pendaftaran</li>
                     <li>📅 Jadwal SPMB 2026/2027</li>
-                    <li>🏫 Program Keahlian yang Tersedia</li>
-                    <li>🎯 Sistem Seleksi & Penilaian</li>
-                    <li>💙 Jalur Afirmasi & Prestasi</li>
+                    <li>🏫 Program Keahlian yang Tersedia (maks. 2 pilihan)</li>
+                    <li>🎯 Seleksi: Nilai Rapor + TKA, Prestasi, Tes Bakat & Minat</li>
+                    <li>💙 Kuota Keluarga Tidak Mampu/Disabilitas & Domisili Terdekat</li>
                     <li>📞 Info Kontak & Pendaftaran Online</li>
                 </ul>
                 Ada yang ingin Anda tanyakan?
