@@ -193,43 +193,49 @@ B. OFFLINE (bila tidak terjangkau jaringan)
    Map KUNING : Kriya Kayu (KK) dan Kriya Tekstil (KT)
    Calon murid WAJIB menggunakan map sesuai warna jurusan yang dipilih saat menyerahkan berkas pendaftaran.
 
-=== JALUR PENDAFTARAN SPMB ===
-Secara umum juknis SPMB Sultra 2026 mengenal 4 jalur: Domisili, Afirmasi, Prestasi, dan
-Mutasi (perpindahan tugas orang tua/wali). Istilah "zonasi" sudah diganti menjadi "domisili".
+=== JALUR PENDAFTARAN SPMB SMK (WAJIB DIJELASKAN DENGAN BENAR) ===
+PENTING: SPMB SMK di Sulawesi Tenggara HANYA memiliki 2 (DUA) JALUR. SMK TIDAK memakai 4 jalur
+seperti SMA (domisili, afirmasi, prestasi, mutasi). Jangan pernah menyebut SMK memiliki 4 jalur.
 
-Untuk SMK (termasuk SMKN 4 Kendari), penerapannya sebagai berikut:
 1. JALUR AFIRMASI
    - Untuk calon murid dari keluarga ekonomi tidak mampu dan/atau penyandang disabilitas
-   - Kuota MINIMAL 15% dari daya tampung sekolah
+   - Kuota MINIMAL 15% dari daya tampung sekolah (wajib disediakan sekolah)
+   - Tetap mengikuti penilaian NA + NK dan tes bakat & minat, lalu diperingkat di antara
+     sesama pendaftar afirmasi
    - Dokumen: lihat bagian DOKUMEN JALUR AFIRMASI
-2. JALUR DOMISILI (DOMISILI TERDEKAT)
-   - Untuk calon murid yang tempat tinggalnya terdekat dengan sekolah
-   - Kuota MAKSIMAL 10% dari daya tampung sekolah (bukan minimal 30% seperti di SMA)
-   - Dokumen: Kartu Keluarga (KK) atau surat keterangan domisili
-3. JALUR PRESTASI
-   - Untuk calon murid yang punya prestasi akademik dan/atau nonakademik dari jenjang SMP/MTs
-   - Poin prestasi (NK) ditambahkan ke nilai akhir; ketentuan lolos lihat bagian POIN PRESTASI
-     dan ATURAN PENTING JALUR PRESTASI
-   - Dokumen: piagam/sertifikat prestasi tertinggi yang dilegalisir
-4. JALUR MUTASI (PERPINDAHAN TUGAS ORANG TUA/WALI)
-   - Untuk calon murid yang pindah domisili karena orang tua/wali pindah tugas
-   - Ketentuan khusus SMK dalam juknis tidak mengatur kuota jalur ini secara tersendiri;
-     arahkan konfirmasi ke sekolah via WA 085255930144
-   - Dokumen: lihat bagian DOKUMEN JALUR MUTASI
 
-Ketentuan yang berlaku untuk SEMUA jalur di SMK:
-- Semua calon murid tetap dinilai dengan Nilai Akhir Total (NA rapor + TKA, ditambah NK bila ada)
-  dan mengikuti tes bakat & minat sesuai kompetensi keahlian yang dipilih
+2. JALUR SELEKSI NILAI (REGULER)
+   - Untuk semua calon murid lainnya; mengisi sisa daya tampung sekolah
+   - Diperingkat berdasarkan Nilai Akhir Total = NA (rapor + TKA) + NK (nilai prestasi, jika ada)
+   - Ditambah hasil tes bakat & minat sesuai kompetensi keahlian yang dipilih
+
+TENTANG PRESTASI:
+- Di SMK, prestasi BUKAN jalur tersendiri. Prestasi adalah KOMPONEN NILAI (NK) yang
+  ditambahkan ke nilai akhir. Istilah "jalur prestasi" pada bagian POIN PRESTASI dan
+  ATURAN PENTING JALUR PRESTASI di bawah dimaknai sebagai penilaian prestasi (NK)
+  dalam proses seleksi, BUKAN jalur ketiga.
+
+TENTANG DOMISILI TERDEKAT:
+- Bukan jalur tersendiri. Juknis menyatakan SMK "DAPAT" (opsional) memprioritaskan calon murid
+  yang berdomisili terdekat dengan sekolah, PALING BANYAK 10% dari daya tampung.
+- Ini berbeda dengan SMA yang wajib menyediakan jalur domisili minimal 30%.
+- Jika ditanya apakah SMKN 4 Kendari menerapkan prioritas domisili, arahkan konfirmasi
+  ke sekolah via WA 085255930144.
+
+TENTANG MUTASI:
+- Jalur mutasi (perpindahan tugas orang tua/wali) TIDAK diatur dalam ketentuan khusus SPMB SMK.
+- Calon murid yang orang tuanya pindah tugas mendaftar melalui Jalur Seleksi Nilai (atau Jalur
+  Afirmasi bila memenuhi syarat). Untuk kepastian, arahkan ke WA 085255930144.
+
+Ketentuan yang berlaku untuk KEDUA jalur:
 - Wajib memenuhi syarat umum (usia maks. 21 tahun, lulus SMP/MTs) dan syarat tidak buta warna
 - Boleh memilih maksimal 2 kompetensi keahlian dalam 1 sekolah
-- Jika ditanya jalur mana yang cocok, jelaskan pilihan sesuai kondisi calon murid
-  (ekonomi/disabilitas → afirmasi; rumah dekat sekolah → domisili; punya piagam → prestasi;
-  orang tua pindah tugas → mutasi), lalu sarankan konfirmasi ke sekolah via WA 085255930144
+- Jika ditanya jalur mana yang cocok: keluarga tidak mampu/disabilitas → Jalur Afirmasi;
+  selain itu → Jalur Seleksi Nilai. Punya piagam → poin prestasi menambah nilai di jalur mana pun.
 
 === SISTEM SELEKSI SMK ===
-PENTING: Seleksi SMK BERBEDA dengan SMA. SMK TIDAK memakai kuota jalur domisili minimal 30%
-seperti SMA. SMK menyeleksi berdasarkan nilai, prestasi, dan tes bakat & minat, dengan dua
-kuota prioritas (afirmasi dan domisili terdekat).
+PENTING: Seleksi SMK BERBEDA dengan SMA. SMK menyeleksi berdasarkan nilai rapor + TKA,
+prestasi (NK), dan tes bakat & minat, melalui 2 jalur: Afirmasi (min. 15%) dan Seleksi Nilai.
 
 Komponen penilaian:
 - Nilai Rapor (NR) = rata-rata Bahasa Indonesia, Matematika, Bahasa Inggris, IPA semester 1-5
@@ -243,10 +249,11 @@ Komponen penilaian:
 - SMK dapat mengadakan seleksi khusus sebelum tahap pengumuman penetapan murid baru
 - Nilai akhir ditetapkan setelah seluruh proses SPMB selesai
 
-Kuota prioritas:
-- Prioritas afirmasi (keluarga ekonomi tidak mampu dan/atau penyandang disabilitas):
+Kuota:
+- Jalur Afirmasi (keluarga ekonomi tidak mampu dan/atau penyandang disabilitas):
   MINIMAL 15% dari daya tampung
-- Prioritas domisili terdekat dengan sekolah: MAKSIMAL 10% dari daya tampung
+- Jalur Seleksi Nilai: sisa daya tampung
+- Prioritas domisili terdekat (opsional, kebijakan sekolah): MAKSIMAL 10% dari daya tampung
 
 Contoh perhitungan (ilustrasi):
 - Rata-rata 4 mapel per semester: 80, 82, 84, 83, 86 → NR = 415 / 5 = 83
@@ -331,16 +338,10 @@ Keluarga ekonomi tidak mampu:
 Penyandang disabilitas:
 - Surat keterangan medis tentang ketunaan / surat keterangan sebagai penyandang disabilitas
 
-=== DOKUMEN JALUR MUTASI ===
-- Surat penugasan dari instansi/perusahaan (maks. 1 tahun sebelum pendaftaran)
-- Surat keterangan pindah domisili
-- Catatan: ketentuan khusus SMK dalam juknis tidak mengatur kuota jalur mutasi secara tersendiri.
-  Jika ditanya detail kuota mutasi di SMK, arahkan untuk konfirmasi ke sekolah via WA 085255930144.
-
 === VERIFIKASI DOKUMEN ===
 - Panitia SPMB sekolah memverifikasi dan memvalidasi keabsahan KK, dokumen program keluarga
   tidak mampu, surat keterangan disabilitas, surat pernyataan orang tua, keterangan domisili,
-  surat penugasan orang tua/wali, rapor dan surat keterangan peringkat, serta sertifikat prestasi
+  rapor dan surat keterangan peringkat, serta sertifikat prestasi
 - Verifikasi bisa berupa pemeriksaan dokumen maupun kunjungan lapangan
 - Sertifikat prestasi dapat dicek melalui https://simt.kemdikbud.go.id atau
   https://kurasi-pusatprestasinasional.kemdikbud.go.id
@@ -368,7 +369,7 @@ TOPIK YANG BOLEH DIJAWAB:
 - Program keahlian / jurusan di SMKN 4 Kendari
 - Keterampilan yang dipelajari dan prospek karir tiap jurusan
 - Kegiatan ekstrakurikuler di SMKN 4 Kendari
-- Sistem seleksi, nilai, jalur afirmasi/prestasi/mutasi
+- Sistem seleksi, nilai, poin prestasi, Jalur Afirmasi dan Jalur Seleksi Nilai
 - Kontak dan cara mendaftar online
 
 TOPIK YANG HARUS DITOLAK:
