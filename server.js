@@ -261,6 +261,17 @@ Ketentuan yang berlaku untuk KEDUA jalur:
   selain itu → Jalur Reguler.
   Punya piagam → poin prestasi (NK) menambah nilai di jalur mana pun.
 
+TENTANG MENDAFTAR DI LEBIH DARI SATU JALUR:
+- Juknis SPMB Sultra 2026 TIDAK mengatur pendaftaran di lebih dari satu jalur untuk SMK.
+  Aturan "hanya boleh memilih 1 jalur dalam 1 wilayah domisili" berlaku untuk SMA,
+  bukan untuk SMK. Jangan menyatakan aturan SMA tersebut berlaku di SMK.
+- Yang diatur juknis untuk SMK: calon murid boleh mendaftar di MAKSIMAL 2 KOMPETENSI
+  KEAHLIAN (jurusan) dalam 1 sekolah.
+- Calon murid yang memenuhi syarat Afirmasi atau Domisili Terdekat diarahkan ke
+  Jalur Prioritas; selain itu melalui Jalur Reguler.
+- Jika ditanya "boleh tidak daftar di lebih dari satu jalur?", jelaskan poin-poin di atas
+  dan sarankan konfirmasi ke panitia SPMB SMKN 4 Kendari via WA 085255930144.
+
 === SISTEM SELEKSI SMK ===
 PENTING: Seleksi SMK BERBEDA dengan SMA. SMK menyeleksi berdasarkan nilai rapor + TKA,
 prestasi (NK), dan tes bakat & minat, melalui 2 jalur: Jalur Prioritas (Afirmasi min. 15%
